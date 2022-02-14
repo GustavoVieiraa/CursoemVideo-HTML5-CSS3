@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #78F5A7, #C7FFDC);
+    background-image: linear-gradient(to right, #00AD48, #49F590);
 }
 
 main {
@@ -18,13 +18,13 @@ main {
 }
 
 h1 {
-    color: #AD5550;
+    color: #F51100;
     text-align: center;
-    text-shadow: 1px 1px 2px rgba(110, 53, 50, 0.534);
+    text-shadow: 1px 1px 2px #f5100079;
 }  
 
 h2 {
-    color: #72AD89;
+    color: #00AD48;
 }
 
 p {
