@@ -6,23 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixas</title>
     <style>
-        h1 {
+        h1 { /* box-level */
             background-color: lightgray;
+
             height: 300px;
             width: 300px;
-            border-width: 10px;
-            border-style: solid;
-            border-color: darkgray;
-            padding-top: 21px;
-            padding-right: 35px;
-            padding-bottom: 0px;
-            padding-left: 85px;
+
+            border: 10px solid darkslategrey;
+
+            /* Regra do relógio = top -> right -> bottom -> left */
+
+            padding: 10px;
+        
+            /* Para deixar uma box (caixa) no centro */
+            margin: 10px auto 40px auto;
+
+            outline: 5px dashed salmon;
         }
 
-        a {
-            border-width: 5px;
+        a { /* inline-level */
+            /*border-width: 5px;
             border-style: solid;
-            border-color: red;
+            border-color: red;*/
+            border: 5px solid blue;
+
+            /*padding-top: 10px;
+              padding-right: 10px;
+              padding-bottom: 10px;
+              padding-left: 10px; 
+              */
+            padding: 10px 10px 10px 10px;
         }
     </style>
 </head>
