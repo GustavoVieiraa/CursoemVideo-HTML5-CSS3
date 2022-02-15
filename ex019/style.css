@@ -2,30 +2,48 @@
 
 /*
 
-    em HTML é id = em CSS é #
-    em HTML é class = em CSS é .
+    em HTML é id = em CSS é # (só pode um elemento)
+    em HTML é class = em CSS é . (pode vários elementos)
 
 */
 
 body {
-    background-color: rgb(149, 255, 149);
+    background-color: #FFCF70;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: rgb(20, 112, 20);
+    color: #946E23;
 }
 
 h1#principal {
     text-align: center;
-    color: rgba(255, 255, 255, 0.815);
-    background-color: rgb(4, 133, 0);
+    color: #154794;
+    background-color: #4C87E0;
 }
 
 h2 {
-    color: rgb(92, 134, 92);
+    color: #4C87E0;
 }
 
+.basico {
+    color: rgba(118, 173, 62, 0.781);
+    font-weight: 500;
+}
+
+.intermediario {
+    color: rgba(196, 193, 53, 0.795);
+    font-weight: 700;
+}
+
+.avancado {
+    color: rgba(255, 48, 89, 0.753);
+    font-weight: 900;
+}
 p {
-    text-align: justify;
+    text-align: justify;  
+}
+
+.destaque {
+    text-align: center;
 }
